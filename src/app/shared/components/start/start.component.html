@@ -1,0 +1,26 @@
+<h1>Acortador de Enlaces</h1>
+<div class="image-container">
+    <img
+    src="https://gadgetsbeat.com/wp-content/uploads/2022/04/URL-Shortener-Meaning-Benefits-When-To-Use.jpg"
+    alt=""
+    />
+</div>
+
+
+<input class="input" type="text" id="originalUrl" [(ngModel)]="originalUrl" (input)="onUrlInput()" placeholder="Ingresa la URL original">
+<button id="shortenButton" [disabled]="isButtonDisabled" (click)="shortenUrl()">Acortar URL</button>
+<div id="shortenedUrl" [innerHTML]="shortenedUrl"></div>
+
+<div class="info-content">
+    <h2><strong>¿Qué es acortar un link o URL ?</strong></h2>
+    <p>Acortar una url o link, es la forma de bajar la proporción en cantidad de letras y números usados para dirigir a un portal de internet más allá de la extensión del enlace con mas caracteres, el enlace seguro en resumen hacer mas pequeño un enlace link o url, esta tecnología además de hacer mejor visualmente la percepción del usuario, en acortar.link puedes de forma facil rapida y segura hacer el rastreo de estadísticas para lograr ver país y numero de visitas geográficamente localizadas. Para acceder en la característica de estadísticas debes registrarte y activar tu cuenta, no olvides comprobar tu bandeja correo de contenido publicitario o "spam" para accender a tu novedosa cuenta de acortar.link donde tambien puedes crear codigos QR del enlace corto, acortado. Puedes crear el codigo QR luego de acortar. Recordamos y aseguramos nuestros usuarios que no mostramos anuncios durante el redirecionamiento.</p>
+    <p>El acortador de URL (URL shortener) de dirección de internet o link disminuye los letras y números de acortar link o url con la tecnología de un software dedicado a tal fin, ahora con el enlace corto que vamos a usar y se gana espacio en el mensaje. Han comenzado a utilizarse a raíz del triunfo generado en la comunidad de microblogging de Twitter, Facebook, TikTok no dan para bastante caracteres o no se adapta a la estrategia publicitaria.</p>
+    <h2><strong>¿Cómo hago para acortar un link?</strong></h2>
+    <p>Pega o escribe tu URL o link en la parte superior abajo del logo, luego presiona acortar link y listo, puedes también generar un código QR completamente gratis.</p>
+</div>
+
+<footer class="footer">
+    <span class="footer__copy">
+        © SnapURL <span class="current-year" id="current-year">2023</span>. Desarrollado por Anthony Avellaneda | Todos los derechos reservados.
+    </span>
+</footer>

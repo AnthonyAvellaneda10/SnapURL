@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* grid-template-rows: auto 1fr auto; */
+  }
+  
+  h1, h2, h3 {
+    margin-top: 20px;
+    color: #317eac
+  }
+  h2 {
+    font-weight: normal;
+  }
+  p {
+    color: #555555;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 0 10px;
+  }
+
+  .info-content {
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .input {
+    width: 60%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    /* padding: 0 1rem; */
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+
+  /* Asegura que la imagen se ajuste automáticamente al ancho del contenedor */
+  .image-container {
+    max-width: 650px; /* Limita el ancho del contenedor para dar un tamaño regular */
+    margin: 25px auto; /* Centra el contenedor horizontalmente */
+  }
+  
+  /* Estilo adicional para el contenedor */
+  .image-container img {
+    max-width: 100%; /* La imagen no superará el ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura en función de la proporción */
+    width: auto; /* Evita que la imagen sea demasiado grande inicialmente */
+    display: block;
+    border-radius: 20px;
+  }
+  
+  
+  #shortenedUrl {
+    margin-top: 20px;
+  }
+
+  .footer__copy {
+    display: block;
+    margin: 4.5rem 0;
+    font-size: .813rem;
+    color: hsl(207, 4%, 56%);
+  }
+
+  @media screen and (max-width: 680px) {
+    .image-container {
+        max-width: 80%; /* Limita el ancho del contenedor para dar un tamaño regular */
+    }
+  }

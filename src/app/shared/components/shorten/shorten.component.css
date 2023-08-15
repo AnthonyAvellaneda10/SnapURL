@@ -1,0 +1,71 @@
+button {
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, cursor 0.3s;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+
+  .qrcodeImage {
+    margin: 20px 0;
+  }
+
+  section {
+    min-height: calc(80vh - 18px);
+  }
+  
+  #shortenButton:not(:disabled) {
+    background-color: #007bff;
+    opacity: 0.9;
+  }
+
+  #shortenButton:hover {
+    opacity: 1;
+  }
+
+  #qrGenerator {
+    background: #178acc;
+    font-size: 14px;
+    padding: 8px 12px;
+    opacity: 0.9;
+  }
+
+  #qrGenerator:hover {
+    opacity: 1;
+  }
+
+  #otherUrl {
+    background: #033c73;
+    font-size: 14px;
+    padding: 8px 12px;
+    opacity: 0.9;
+  }
+
+  #otherUrl:hover {
+    opacity: 1;
+  }
+
+  #download {
+    background: #033c73;
+    font-size: 14px;
+    padding: 8px 12px;
+    opacity: 0.9;
+  }
+
+  #download:hover {
+    opacity: 1;
+  }
+
+  .other-buttons {
+    margin-top: 25px;
+  }
+
+  .qrcodeImage .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
