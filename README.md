@@ -1,27 +1,77 @@
-# UrlShort
+# SnapURL ✂️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+![SnapURL Logo](./src/assets/img/image.png) <!-- Agrega aquí la ruta a tu logotipo -->
 
-## Development server
+SnapURL es una aplicación web que te permite acortar tus URLs largas y generar códigos QR para compartir fácilmente enlaces. Simplifica tus enlaces y comparte contenido de manera rápida y eficiente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características
 
-## Code scaffolding
+- Acorta URLs largas y obtén enlaces más limpios y fáciles de compartir.
+- Genera códigos QR para tus enlaces acortados.
+- Interfaz de usuario amigable y fácil de usar.
+- Soporte para personalizar los enlaces acortados y los códigos QR.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Cómo usar
 
-## Build
+1. Ingresa la URL larga en el campo correspondiente.
+2. Haz clic en el botón "Acortar URL" para obtener un enlace más corto.
+3. Haz clic en el botón "Generar código QR" para crear un código QR para el enlace acortado.
+4. Escanea, descarga o comparte, el enlace acortado o el código QR donde lo necesites.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologías utilizadas
 
-## Running unit tests
+SnapURL utiliza un conjunto de tecnologías web para brindar una experiencia de acortamiento de URLs y generación de códigos QR fácil y eficiente:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **HTML:** Para estructurar y presentar contenido en la web.
 
-## Running end-to-end tests
+- **CSS:** Para dar estilo y diseño a las páginas web. SnapURL utiliza CSS para definir la apariencia visual, el diseño y la interacción del usuario.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **TypeScript:** Lenguaje de programación tipado que compila a JavaScript. TypeScript mejora el desarrollo web al proporcionar tipos estáticos, características modernas de JavaScript y herramientas de desarrollo avanzadas.
 
-## Further help
+- **Angular:** Frontend del sitio web.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **[Angular QR Code Generator](https://www.npmjs.com/package/angularx-qrcode):** Librería utilizada para generar los códigos QR.
+
+Estas tecnologías trabajan en conjunto para brindar una experiencia de usuario fluida y atractiva en SnapURL. La combinación de HTML para la estructura, CSS para el diseño y TypeScript para la lógica de la aplicación permite una aplicación web responsiva y funcional.
+
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local.
+```shell
+git clone https://github.com/AnthonyAvellaneda10/SnapURL.git
+```
+2. Instala las dependencias usando `npm install`.
+```shell
+npm install
+```
+3. Ejecuta el servidor de desarrollo con `ng serve` o `ng s -o`.
+```shell
+ng s -o
+```
+4. Abre tu navegador y navega a `http://localhost:4200`.
+
+```shell
+http://localhost:4200
+```
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir a SnapURL, sigue los siguientes pasos:
+
+1. Crea un fork de este repositorio.
+2. Clona tu fork en tu máquina local.
+3. Crea una rama para tu función/fix con `git checkout -b nombre-de-la-rama`.
+```shell
+git checkout -b nombre-de-la-rama
+```
+4. Haz tus cambios y realiza commits.
+5. Envía tus cambios a tu fork con `git push origin nombre-de-la-rama`.
+```shell
+git push origin nombre-de-la-rama
+```
+6. Crea un pull request en este repositorio.
+
+---
+
+¡Disfruta usando SnapURL para acortar tus enlaces y compartir contenido de manera eficiente! Si tienes alguna pregunta, problema o sugerencia, no dudes en crear un issue en este repositorio.
