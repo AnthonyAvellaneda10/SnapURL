@@ -1,5 +1,7 @@
 # SnapURL ✂️
+
 ## [Ver Demo 👀](https://snap-url.netlify.app/home)
+
 
 ![SnapURL Logo](./src/assets/img/image.png) <!-- Agrega aquí la ruta a tu logotipo -->
 
