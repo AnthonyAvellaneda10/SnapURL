@@ -3,7 +3,7 @@
 ## [Ver Demo 👀](https://snap-url.netlify.app/home)
 
 
-![SnapURL Logo](./src/assets/img/image.png) <!-- Agrega aquí la ruta a tu logotipo -->
+![SnapURL Logo](./src/assets/img/preview.png) <!-- Agrega aquí la ruta a tu logotipo -->
 
 SnapURL es una aplicación web que te permite acortar tus URLs largas y generar códigos QR para compartir fácilmente enlaces. Simplifica tus enlaces y comparte contenido de manera rápida y eficiente.
 
